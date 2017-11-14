@@ -1,6 +1,6 @@
-node-red-metasix:
+node-redx:
   restart: always
-  image: node-red
+  image: nodered/node-red-docker
   ports:
     - 1880:1880
 #  links:
